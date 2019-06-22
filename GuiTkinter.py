@@ -6,7 +6,7 @@ root.title(u"Hello World")
 root.geometry("400x300")
 
 def OnMessageBox(event):
-  messagebox.showinfo('確認', 'Hello World')
+    messagebox.showinfo('確認', 'Hello World')
 
 Button = tkinter.Button(text=u'メッセージボックスを表示します', width=50)
 Button.bind("<Button>", OnMessageBox) 
